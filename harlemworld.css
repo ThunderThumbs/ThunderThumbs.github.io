@@ -1,45 +1,598 @@
-.container { 
-   /* border: 1px dashed blue;
+
+/* This is my color scheme------
+
+I hope these look nice together ;) */
+
+ #container { 
     width: 960px;
-    margin: auto; */
-    
+    margin: auto; 
+    font-family: 'Montserrat', sans-serif;
 }
+    
+
+
+/*Navigation section of layout-------------------------------
+---------------------------*/
+    
 .nav {
-    background-color: #EC576B;
+    width: 950px;
+    color: #ee7674;
     margin-bottom: 0px;
     text-align: center;
+    background-color: #;
+    
 }
-.nav li{
+.nav li {
     display: inline-block;
     padding:5px 15px;
+    background-color: #f9b5ac;
     }
-
-.header {background-color: #EC576B; 
+    
+ .nav li a:link, .nav li a:visited  { 
+       color: #987284;  
+       
+ }
+ .nav li a:hover, .nav li a:active {
+        background-color:#75b9be;
+ }
+     
+/*header section of layout-------------------------------
+---------------------------*/
+.header {background-color: #ffffff;
           
 }
 
-.header h1 {text-align: center;
-}
+.header > h1 {
+    text-align: center;
+     }
+
+/*side section of layout-------------------------------
+---------------------------*/
 
 .side { 
-    background-color: #E5E338;
-     display: inline-block;
-    width: 15%;
-    height: 400px; 
-   /* float: left;
-    width: 30%;
-    height: 400px;*/
+  
+    width: 155px;
+    height: 950px;
+    float:right;
+    margin-right:10px;
+    background-color: #ee7674;
+    padding: 20px; 60px;
 }
+
+.side li a:link {
+    color:#75b9be;
+}
+
+.sides { 
+  
+    width: 155px;
+    height: 950px;
+    float:right;
+    margin-right:10px;
+    background-color: #ffffff;
+    padding: 20px; 60px;
+}
+
+#recipes {
+    width: 285px;
+    height: 950px;
+    float:right;
+    margin-right:10px;
+    background-color: #f9b5ac;
+    padding: 20px; 60px;
+    text-align: center;
+ }   
+    
+    
+/*Main section of layout-------------------------------
+---------------------------*/
+
+ 
 .main { 
-    background-color: #22fbe1;
-    display: inline-block;
-    width:70%;
-     height: 400px;
-    /* float: left;
-    width: 30%;
-    height: 400px;*/
+     
+     background-color: #ffffff;
 }
+
+img {
+    float: left;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+}
+
+div img {box-shadow: 5px 5px 5px #888888;
+}
+ 
+    
+/*div {
+    outline: 1px solid black;
+}*/
+ div >h3 {
+     text-align: center;
+     padding: 20px;
+ }
+
+  
 .footer {
-    background-color: #000000;
-    color: #4EC5C1;
-   /* clear: both*/ }
+    background-color: #987284;
+    color: #00000;
+    clear: both;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
