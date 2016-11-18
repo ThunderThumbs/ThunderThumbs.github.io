@@ -3,10 +3,26 @@
 
 I hope these look nice together ;) */
 
+
+html { 
+  background: url(images/backgroundimage.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+    background-image: ;
+  
+}
+
+ 
+
  #container { 
+     
     width: 960px;
     margin: auto; 
-    font-family: 'Montserrat', sans-serif;
+   font-family: 'Fredoka One', cursive;
 }
     
 
@@ -29,7 +45,7 @@ I hope these look nice together ;) */
     }
     
  .nav li a:link, .nav li a:visited  { 
-       color: #987284;  
+       color: 2A2024;  
        
  }
  .nav li a:hover, .nav li a:active {
@@ -38,13 +54,8 @@ I hope these look nice together ;) */
      
 /*header section of layout-------------------------------
 ---------------------------*/
-.header {background-color: #ffffff;
-          
-}
+.header {}
 
-.header > h1 {
-    text-align: center;
-     }
 
 /*side section of layout-------------------------------
 ---------------------------*/
@@ -69,13 +80,13 @@ I hope these look nice together ;) */
     height: 950px;
     float:right;
     margin-right:10px;
-    background-color: #ffffff;
+    background-color: #;
     padding: 20px; 60px;
 }
 
 #recipes {
     width: 285px;
-    height: 950px;
+    height: auto;
     float:right;
     margin-right:10px;
     background-color: #f9b5ac;
@@ -93,14 +104,14 @@ I hope these look nice together ;) */
      background-color: #ffffff;
 }
 
-img {
+ .main img {
     float: left;
     width: 350px;
     height: 350px;
-    padding: 10px;
+    padding: 10px;10px;
 }
 
-div img {box-shadow: 5px 5px 5px #888888;
+.main img {box-shadow: 5px 5px 5px #888888;
 }
  
     
@@ -109,7 +120,7 @@ div img {box-shadow: 5px 5px 5px #888888;
 }*/
  div >h3 {
      text-align: center;
-     padding: 20px;
+     
  }
 
   
@@ -117,6 +128,8 @@ div img {box-shadow: 5px 5px 5px #888888;
     background-color: #987284;
     color: #00000;
     clear: both;
+    width: 948px;
+    padding-bottom: : 10px;
 }
     
     
