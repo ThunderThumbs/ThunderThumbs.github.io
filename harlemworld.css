@@ -117,14 +117,17 @@ html {
 }
 
 iframe {
-    
+    padding-top: 15px; 
+    float: none;
 }
 
 /*div {
     outline: 1px solid black;
 }*/
  
- 
+ #video {
+     
+ }
 
  
 .footer {
